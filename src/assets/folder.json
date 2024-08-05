@@ -1,0 +1,61 @@
+{
+    "name": "YogeshKadu",
+    "type": "folder",
+    "active": true,
+    "items": [
+        {
+            "name": "node_modules",
+            "type": "folder",
+            "items": []
+        },
+        {
+            "name": "public",
+            "type": "folder",
+            "items": [
+                {
+                    "name": "profile.jpg",
+                    "type": "jpg",
+                    "src": "img1.jpg",
+                    "icon": ""
+                }
+            ]
+        },
+        {
+            "name": "src",
+            "type": "folder",
+            "active": true,
+            "items": [
+                {
+                    "name": "Portfolio.jsx",
+                    "type": "js",
+                    "href": "/"
+                },
+                {
+                    "name": "Codepen.jsx",
+                    "type": "js",
+                    "href": "/codepen"
+                }
+            ]
+        },
+        {
+            "name": ".gitignore",
+            "type": "gitignore"
+        },
+        {
+            "name": "index.html",
+            "type": "html"
+        },
+        {
+            "name": "package-lock.json",
+            "type": "json"
+        },
+        {
+            "name": "package.json",
+            "type": "json"
+        },
+        {
+            "name": "vite.config.js",
+            "type": "js"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.custom-outline {
+		@apply outline-none focus:bg-slate-700 hover:bg-slate-700 cursor-pointer;
+	}
+	.custom-shadow {
+		@apply shadow-[0px_0px_8px_#0005];
+	}
+	.grid-center {
+		@apply grid place-content-center;
+	}
+}

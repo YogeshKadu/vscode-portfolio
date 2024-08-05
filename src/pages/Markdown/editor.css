@@ -1,0 +1,27 @@
+.rc-md-editor {
+	height: 100%;
+	border: none;
+	background-color: transparent;
+}
+.section-container.input {
+	background-color: transparent !important;
+	color: theme("colors.gray.100") !important;
+}
+
+.section-container.html-wrap .custom-html-style {
+	color: theme("colors.white");
+}
+.section-container.html-wrap{
+	padding: 3rem !important;
+}
+@media screen and (max-width: 640px){
+	.section-container.html-wrap{
+		padding: 1.25rem !important;
+	}
+}
+.html-wrap .custom-html-style a {
+	color: theme("colors.gray.300");
+}
+.rc-md-editor .editor-container>.section{
+	border: none;
+}
