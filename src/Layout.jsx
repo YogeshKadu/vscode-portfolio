@@ -32,7 +32,7 @@ function Layout() {
                                 </div>
 
                             </div>
-                            <div className="flex-1 overflow-auto scrollbar scrollbar-thumb-slate-600">
+                            <div className="overflow-auto grow shrink-0 basis-0 scrollbar scrollbar-thumb-slate-600">
                                 <Outlet />
                             </div>
                         </div>
