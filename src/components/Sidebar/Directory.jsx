@@ -1,20 +1,31 @@
 import React, { useState } from 'react';
 import icons from '../../utils/icons';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 function Directory({ file }) {
     const [open, setOpen] = useState(file.active || false);
     if (file.type !== 'folder')
         return (
-            <Link to={file.href || ""}  className="flex items-center w-full gap-1 p-1 font-sans text-left hover:bg-slate-600/20">
-                <span className="grid w-6 h-6 place-content-center">
-                    <img src={icons[file.type]} alt="file-icons" className="w-3 h-3" />
-                </span>
-                <span className="flex-1">
-                    {file.name}
-                </span>
-            </Link>
+            <>
+                {!file.href ?
+                    <div className="flex items-center w-full gap-1 p-1 font-sans text-left hover:bg-slate-700/20">
+                        <span className="grid w-6 h-6 place-content-center">
+                            <img src={icons[file.type]} alt="file-icons" className="w-3 h-3" />
+                        </span>
+                        <span className="flex-1 text-sm">
+                            {file.name}
+                        </span>
+                    </div> :
+                    <NavLink to={file.href || ""} className={({ isActive }) => `flex items-center w-full gap-1 p-1 font-sans text-left hover:bg-slate-600/20 ${isActive && 'bg-slate-700 text-white'}`}>
+                        <span className="grid w-6 h-6 place-content-center">
+                            <img src={icons[file.type]} alt="file-icons" className="w-3 h-3" />
+                        </span>
+                        <span className="flex-1 text-sm">
+                            {file.name}
+                        </span>
+                    </NavLink>}
+            </>
         )
     return <div className="outline-none">
         <button className="flex items-center w-full gap-1 p-1 font-sans text-left hover:bg-slate-600/20" onClick={() => setOpen(pre => !pre)}>
@@ -23,7 +34,7 @@ function Directory({ file }) {
             </span>
             <span className="flex-1 text-sm truncate">{file.name}</span>
         </button>
-        <div className="">
+        <div className="pl-5">
             {
                 open && file?.items.map((item, index) => <Directory key={index} file={item} />)
             }

@@ -26,9 +26,14 @@
             "active": true,
             "items": [
                 {
-                    "name": "Portfolio.jsx",
+                    "name": "Home.jsx",
                     "type": "js",
                     "href": "/"
+                },
+                {
+                    "name": "Profile.jsx",
+                    "type": "js",
+                    "href": "/profile"
                 },
                 {
                     "name": "Codepen.jsx",

@@ -4,6 +4,8 @@ import Herosection from "./components/Herosection";
 import Myservices from "./components/Myservices";
 import MarkdownEditor from "./pages/Markdown/MarkdownEditor";
 import Codepen from "./pages/Codepen";
+import Home from "./pages/Home";
+import Instruction from "./pages/Instruction";
 
 const Normal = () => {
   return <div className="relative w-full min-h-svh bg-base-100 font-Quicksand" data-theme="light">
@@ -21,7 +23,9 @@ export default function App() {
       {/* <Layout /> */}
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<MarkdownEditor />} />
+          <Route index element={<Home />} />
+          <Route path="instruction" element={<Instruction />} />
+          <Route path="profile" element={<MarkdownEditor />} />
           <Route path="codepen" element={<Codepen />} />
         </Route>
       </Routes>
