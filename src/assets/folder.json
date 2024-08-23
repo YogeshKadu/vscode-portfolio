@@ -39,6 +39,21 @@
                     "name": "Codepen.jsx",
                     "type": "js",
                     "href": "/codepen"
+                },
+                {
+                    "name": "experiance.jsx",
+                    "type": "js",
+                    "href": "/experiance"
+                },
+                {
+                    "name": "contact.jsx",
+                    "type": "js",
+                    "href": "/contact"
+                },
+                {
+                    "name": "skills.jsx",
+                    "type": "js",
+                    "href": "/skills"
                 }
             ]
         },
