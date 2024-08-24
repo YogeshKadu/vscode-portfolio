@@ -7,7 +7,6 @@ function Home() {
   const { visitedRoutes } = useHistoryContext()
   const visitedList = visitedRoutes.filter(item => item.href != "/");
   const src = folder.items.find((item) => item.name == "src");
-  // console.log(src);
 
   return (
     <div className="min-h-full">
@@ -63,7 +62,7 @@ function Home() {
               </div>
             </div>
             <div>
-              <h4 className="mt-5 mb-2 text-slate-300">Wibe with me 🎧</h4>
+              <h4 className="mt-5 mb-2 text-slate-300">Vibe with me 🎧</h4>
               <iframe
                 style={{ borderRadius: 12 }}
                 src="https://open.spotify.com/embed/album/4UX3mreKGz0f1PrGb4Q9CJ?utm_source=generator&theme=0"
