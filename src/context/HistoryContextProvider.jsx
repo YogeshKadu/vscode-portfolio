@@ -12,8 +12,11 @@ function HistoryContextProvider({ children }) {
     // const { hash, pathname, search } = location;
     const [visitedRoutes, setVisitedRoutes] = useState([])
     const RemoveRoute = (RouteHref) => {
-
         const cloned = [...visitedRoutes.filter((item) => item.href != RouteHref)]
+        console.log(cloned);
+        if(location.pathname == RouteHref){
+            navigate(cloned[0]?.href||"/");
+        }
         setVisitedRoutes(cloned);
         if(cloned.length == 0)
             navigate("instruction");

@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 function Footer() {
     const [count, setCount] = useState(95);
     return (
-        <div className='flex -justify-end w-full bg-slate-800 text-gray-400 h-5 text-[0.6rem]'>
-            <button className="w-10 bg-yellow-300 text-slate-800 font-bold">
+        <div className='flex -justify-end w-full bg-secondary-800 text-gray-400 h-5 text-[0.6rem]'>
+            <button className="w-10 bg-yellow-300 text-secondary-800 font-bold">
                 <span className="-font-Noto">{count % 10 === 0 ? '⚆_⚆' : '0o0'}</span>
             </button>
 

@@ -12,7 +12,8 @@ export default {
         "Noto": ["Noto Color Emoji", "sans-serif"],
       },
       colors: {
-        "primary": colors.cyan
+        "primary": colors.cyan,
+        "secondary": colors.neutral
       }
     },
   },

@@ -9,6 +9,7 @@ import Instruction from "./pages/Instruction";
 import Contact from "./pages/Contact";
 import Experiance from "./pages/Experiance";
 import Skills from "./pages/Skills";
+import NotFound from "./pages/NotFound";
 
 const Normal = () => {
   return <div className="relative w-full min-h-svh bg-base-100 font-Quicksand" data-theme="light">
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="experiance" element={<Experiance />} />
           <Route path="skills" element={<Skills />} />
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>

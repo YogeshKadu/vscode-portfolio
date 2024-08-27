@@ -1,3 +1,12 @@
+[inspiration](https://www.rajsavaliya.com/)
+
+## Terminal
+1. switch theme
+2. navigate between pages
+3. 
+
+
+
 ## Yogesh Vasant kadu
 
 [kaduyogesh99@gmail.com](mailto:kaduyogesh99@gmail.com) | +91 9881309690 |

@@ -26,19 +26,9 @@
             "active": true,
             "items": [
                 {
-                    "name": "Home.jsx",
+                    "name": "home.jsx",
                     "type": "js",
                     "href": "/"
-                },
-                {
-                    "name": "Profile.jsx",
-                    "type": "js",
-                    "href": "/profile"
-                },
-                {
-                    "name": "Codepen.jsx",
-                    "type": "js",
-                    "href": "/codepen"
                 },
                 {
                     "name": "experiance.jsx",
@@ -54,6 +44,16 @@
                     "name": "skills.jsx",
                     "type": "js",
                     "href": "/skills"
+                },
+                {
+                    "name": "profile.jsx",
+                    "type": "js",
+                    "href": "/profile"
+                },
+                {
+                    "name": "codepen.jsx",
+                    "type": "js",
+                    "href": "/codepen"
                 }
             ]
         },

@@ -6,7 +6,7 @@
 
 @layer components {
 	.custom-outline {
-		@apply outline-none focus:bg-slate-700 hover:bg-slate-700 cursor-pointer;
+		@apply outline-none focus:bg-secondary-700 hover:bg-secondary-700 cursor-pointer;
 	}
 	.custom-shadow {
 		@apply shadow-[0px_0px_8px_#0005];

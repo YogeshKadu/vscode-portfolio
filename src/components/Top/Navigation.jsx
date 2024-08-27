@@ -29,12 +29,12 @@ function Navigation() {
                     <Menu.Button className={"aspect-square h-full grid place-content-center custom-outline"}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"></path></svg>
                     </Menu.Button>
-                    <Menu.Items className={"absolute flex flex-col w-56 max-w-[calc(100vw_-_2.25rem)] bg-slate-700 custom-shadow p-1 rounded z-30"}>
+                    <Menu.Items className={"absolute flex flex-col w-56 max-w-[calc(100vw_-_2.25rem)] bg-secondary-700 custom-shadow p-1 rounded z-30"}>
                         {
                             navigation.map((menuItem) =>
                                 <Menu.Item key={menuItem.id}>
                                     {({ active }) => (
-                                        <button className={`${active && 'bg-slate-600'} flex items-center h-6 rounded-sm`}>
+                                        <button className={`${active && 'bg-secondary-600'} flex items-center h-6 rounded-sm`}>
                                             <span className='h-full aspect-square grid-center'></span>
                                             <span className='flex-1 text-left'>
                                                 {menuItem.title}
