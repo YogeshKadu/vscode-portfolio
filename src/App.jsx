@@ -7,9 +7,10 @@ import Codepen from "./pages/Codepen";
 import Home from "./pages/Home";
 import Instruction from "./pages/Instruction";
 import Contact from "./pages/Contact";
-import Skills from "./pages/Skills";
+import Technologies from "./pages/Technologies";
 import NotFound from "./pages/NotFound";
 import Experience from "./pages/Experience";
+import Settings from "./pages/Settings";
 
 const Normal = () => {
   return <div className="relative w-full min-h-svh bg-base-100 font-Quicksand" data-theme="light">
@@ -34,7 +35,8 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           {/* <Route path="experiance" element={<Experiance />} /> */}
           <Route path="experience" element={<Experience />} />
-          <Route path="skills" element={<Skills />} />
+          <Route path="technologies" element={<Technologies />} />
+          <Route path="settings" element={<Settings />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

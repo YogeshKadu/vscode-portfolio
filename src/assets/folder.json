@@ -41,19 +41,14 @@
                     "href": "/contact"
                 },
                 {
-                    "name": "skills.jsx",
+                    "name": "technologies.jsx",
                     "type": "js",
-                    "href": "/skills"
+                    "href": "/technologies"
                 },
                 {
                     "name": "profile.jsx",
                     "type": "js",
                     "href": "/profile"
-                },
-                {
-                    "name": "codepen.jsx",
-                    "type": "js",
-                    "href": "/codepen"
                 }
             ]
         },

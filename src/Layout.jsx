@@ -22,6 +22,9 @@ function Layout() {
         navigate(route);
     }
 
+    const hideTopPanel =  visitedRoutes.length == 0;// || !visitedRoutes.find(item=>item.href == pathname);
+
+
     return (
         <div className="relative flex flex-col w-full divide-y h-dvh min-h-lvh bg-secondary-800 font-Quicksand divide-secondary-900" data-theme="dark">
             <Topmenu />
@@ -30,8 +33,8 @@ function Layout() {
                     {/* below is the content you can edit */}
                     <div className="flex h-full max-w-[100vw] max-h-full overflow-y-auto">
                         <Sidebar />
-                        <div className="relative flex flex-col flex-1 font-sans divide-y divide-secondary-900 md:max-w-[calc(100vw_-_280px)] overflow-x-hidden">
-                            <div className={`top-0 flex w-full h-8 overflow-x-auto bg-secondary-800 divide-secondary-900 scrollbar-hide ${visitedRoutes.length == 0 &&"hidden"}`}>
+                        <div className="relative flex flex-col flex-1 font-sans #divide-y divide-secondary-900 md:max-w-[calc(100vw_-_280px)] overflow-x-hidden">
+                            <div className={`top-0 flex w-full h-8 overflow-x-auto border-b border-secondary-900 bg-secondary-800 divide-secondary-900 scrollbar-hide ${hideTopPanel &&"hidden"}`}>
                                 {/* <div className="flex items-center w-56 px-2 text-gray-300 border-r bg-secondary-700/50 border-secondary-900">
                                     <div className='w-5 h-5'></div>
                                     <p className="flex-1 text-xs truncate sm:text-sm first-letter:uppercase">

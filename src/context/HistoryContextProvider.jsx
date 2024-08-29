@@ -1,19 +1,18 @@
-import folder from "../assets/folder.json";
+import navigations from "../utils/navigations.json";
 
 import { createContext, useContext, useEffect, useState } from 'react';
 import { useLocation, useNavigate, useNavigation } from 'react-router-dom';
 
 const HistoryContext = createContext(null);
 
+const skipRoutes = ["/instruction"]
+
 function HistoryContextProvider({ children }) {
     const navigate = useNavigate();
-    const src = folder.items.find((item) => item.name == "src");
     const location = useLocation();
-    // const { hash, pathname, search } = location;
     const [visitedRoutes, setVisitedRoutes] = useState([])
     const RemoveRoute = (RouteHref) => {
         const cloned = [...visitedRoutes.filter((item) => item.href != RouteHref)]
-        console.log(cloned);
         if(location.pathname == RouteHref){
             navigate(cloned[0]?.href||"/");
         }
@@ -24,8 +23,8 @@ function HistoryContextProvider({ children }) {
     // const PopRoute = () => { }
     const pushRoute = (route) => setVisitedRoutes(preRoute => [...preRoute, route]);
     useEffect(() => {
-        if (location.pathname != "/instruction") {
-            const copy = src.items.find((item) => item.href == location.pathname);
+        if (!skipRoutes.includes(location.pathname)) {
+            const copy = navigations.find((item) => item.href == location.pathname);
             if(!copy)
                 return;
             const exist = visitedRoutes.find((item) => item.href == location.pathname);

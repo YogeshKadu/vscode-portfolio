@@ -1,17 +1,32 @@
 [
   {
-    "id":"1",
-    "name":"profile.jsx",
-    "href":"profile"
+    "name": "home.jsx",
+    "type": "js",
+    "href": "/"
   },
   {
-    "id":"2",
-    "name":"codepen.jsx",
-    "href":"codepen"
+    "name": "experience.jsx",
+    "type": "js",
+    "href": "/experience"
   },
   {
-    "id":"3",
-    "name":"profile.jsx",
-    "href":"profile"
+    "name": "contact.jsx",
+    "type": "js",
+    "href": "/contact"
+  },
+  {
+    "name": "technologies.jsx",
+    "type": "js",
+    "href": "/technologies"
+  },
+  {
+    "name": "profile.jsx",
+    "type": "js",
+    "href": "/profile"
+  },
+  {
+    "name": "settings.md",
+    "type": "md",
+    "href": "/settings"
   }
 ]

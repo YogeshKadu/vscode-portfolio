@@ -1,7 +1,7 @@
-function Skills() {
+function Technologies() {
   return (
     <div>
-      Skills
+      Technologies
       {/* <div class="bg-white shadow-md rounded overflow-hidden">
         <div class="card-header p-4 text-gray-700">
           <h3 class="card-title font-bold">Card Title</h3>
@@ -17,4 +17,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Technologies
