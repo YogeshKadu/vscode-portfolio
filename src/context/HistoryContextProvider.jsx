@@ -26,6 +26,8 @@ function HistoryContextProvider({ children }) {
     useEffect(() => {
         if (location.pathname != "/instruction") {
             const copy = src.items.find((item) => item.href == location.pathname);
+            if(!copy)
+                return;
             const exist = visitedRoutes.find((item) => item.href == location.pathname);
             if (!exist) {
                 pushRoute({ ...copy, 'id': location.key });

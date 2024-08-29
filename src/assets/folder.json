@@ -31,9 +31,9 @@
                     "href": "/"
                 },
                 {
-                    "name": "experiance.jsx",
+                    "name": "experience.jsx",
                     "type": "js",
-                    "href": "/experiance"
+                    "href": "/experience"
                 },
                 {
                     "name": "contact.jsx",

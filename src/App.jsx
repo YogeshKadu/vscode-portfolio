@@ -7,9 +7,9 @@ import Codepen from "./pages/Codepen";
 import Home from "./pages/Home";
 import Instruction from "./pages/Instruction";
 import Contact from "./pages/Contact";
-import Experiance from "./pages/Experiance";
 import Skills from "./pages/Skills";
 import NotFound from "./pages/NotFound";
+import Experience from "./pages/Experience";
 
 const Normal = () => {
   return <div className="relative w-full min-h-svh bg-base-100 font-Quicksand" data-theme="light">
@@ -32,7 +32,8 @@ export default function App() {
           <Route path="profile" element={<MarkdownEditor />} />
           <Route path="codepen" element={<Codepen />} />
           <Route path="contact" element={<Contact />} />
-          <Route path="experiance" element={<Experiance />} />
+          {/* <Route path="experiance" element={<Experiance />} /> */}
+          <Route path="experience" element={<Experience />} />
           <Route path="skills" element={<Skills />} />
           <Route path="*" element={<NotFound />} />
         </Route>

@@ -1,4 +1,4 @@
-function Experiance() {
+function Experience() {
   return (
     <section className="p-8 pr-3 md:pr-5 md:p-12">
       <ul className="relative border-secondary-500 border-s">
@@ -18,12 +18,8 @@ function Experiance() {
           <time className="block mb-2 text-sm font-normal leading-none capitalize text-secondary-400">software developer</time>
           <p className="mt-4 text-base font-normal text-secondary-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nulla velit itaque minus architecto id a, distinctio placeat tempora nesciunt, illum inventore, quasi dolore debitis aliquid sequi accusantium. Dicta, ut. Sapiente deserunt sed temporibus maiores reprehenderit! Neque eveniet laborum maiores!</p>
         </li>
-        {/* <li className="mb-10 ms-8">
-          <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-secondary-700 bg-secondary-800"></span>
-          <h3 className="flex items-center mb-1 text-lg font-semibold text-secondary-100">Capgemini India. <span className="text-primary-400 bg-secondary-700 text-sm font-medium me-2 px-2.5 py-0.5 pb-1 rounded ms-3">Latest</span></h3>
-        </li> */}
       </ul>
-      <ol className="relative hidden border-gray-200 border-s">
+      {/* <ol className="relative hidden border-gray-200 border-s">
         <li className="mb-10 ms-6">
           <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white">
             <svg className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -58,11 +54,11 @@ function Experiance() {
           <time className="block mb-2 text-sm font-normal leading-none text-gray-400">Released on December 2nd, 2021</time>
           <p className="text-base font-normal text-gray-500">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
         </li>
-      </ol>
+      </ol> */}
 
 
     </section>
   )
 }
 
-export default Experiance
+export default Experience
