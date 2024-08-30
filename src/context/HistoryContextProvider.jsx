@@ -20,9 +20,12 @@ function HistoryContextProvider({ children }) {
         if(cloned.length == 0)
             navigate("instruction");
     }
-    // const PopRoute = () => { }
     const pushRoute = (route) => setVisitedRoutes(preRoute => [...preRoute, route]);
+
+
+    // all problem starts here removed strictmode as a temperory solution
     useEffect(() => {
+        // console.log("visitedRoutes",visitedRoutes);
         if (!skipRoutes.includes(location.pathname)) {
             const copy = navigations.find((item) => item.href == location.pathname);
             if(!copy)

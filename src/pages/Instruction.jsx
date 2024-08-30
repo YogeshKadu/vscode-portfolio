@@ -1,7 +1,5 @@
 function Instruction() {
-  return (
-    <div>Instruction</div>
-  )
+  return <div>Instruction</div>;
 }
 
-export default Instruction
+export default Instruction;
