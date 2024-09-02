@@ -8,6 +8,29 @@ function Home() {
   const visitedList = visitedRoutes.filter(item => item.href != "/");
   const src = folder.items.find((item) => item.name == "src");
 
+  const startsWith = [
+    {
+      "name": "profile.jsx",
+      "type": "js",
+      "href": "/profile"
+    },
+    {
+      "name": "experience.jsx",
+      "type": "js",
+      "href": "/experience"
+    },
+    {
+      "name": "contact.jsx",
+      "type": "js",
+      "href": "/contact"
+    },
+    {
+      "name": "technologies.jsx",
+      "type": "js",
+      "href": "/technologies"
+    },
+  ]
+
   return (
     <div className="min-h-full">
       <div className="w-full #max-w-5xl p-8 sm:p-20 xl:p-28">
@@ -31,7 +54,7 @@ function Home() {
               <h4 className="flex mb-1 text-secondary-300">Start with</h4>
               <div className="text-sm">
                 {
-                  src?.items.map((item) => <div key={item.name}><Link className="lowercase text-primary-400 hover:underline underline-offset-2" to={item.href}>{item.name}</Link></div>)
+                  startsWith.map((item) => <div key={item.name}><Link className="lowercase text-primary-400 hover:underline underline-offset-2" to={item.href}>{item.name}</Link></div>)
                   // navigation.map((item) => <div><Link className="text-primary-300 hover:underline underline-offset-2" key={item.id} to={item.href}>{item.name}</Link></div>)
                 }
               </div>

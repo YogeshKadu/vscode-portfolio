@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Topmenu from "./components/Topmenu";
 import Footer from "./components/Footer";
 import Sidebar from "./components/Sidebar";
@@ -11,7 +11,7 @@ function Layout() {
   const location = useLocation();
   const navigate = useNavigate();
   const { hash, pathname, search } = location;
-  const { visitedRoutes, RemoveRoute } = useHistoryContext();
+  const { activeTabs, RemoveRoute } = useHistoryContext();
   const HandleNavigate = (path) => {
     navigate(path);
   };
@@ -23,10 +23,9 @@ function Layout() {
     navigate(route);
   };
 
-  const hideTopPanel = visitedRoutes.length == 0; // || !visitedRoutes.find(item=>item.href == pathname);
+  const hideTopPanel = activeTabs.length == 0; // || !activeTabs.find(item=>item.href == pathname);
 
   const { theme } = useThemeProvider();
-  console.log(theme);
   
 
   return (
@@ -54,7 +53,7 @@ function Layout() {
                                         <svg xmlns="http://www.w3.org/2000/svg" width="1.25em" height="1.25em" viewBox="0 0 24 24"><path fill="currentColor" fillRule="evenodd" d="M6.793 6.793a1 1 0 0 1 1.414 0L12 10.586l3.793-3.793a1 1 0 1 1 1.414 1.414L13.414 12l3.793 3.793a1 1 0 0 1-1.414 1.414L12 13.414l-3.793 3.793a1 1 0 0 1-1.414-1.414L10.586 12L6.793 8.207a1 1 0 0 1 0-1.414" clipRule="evenodd"></path></svg>
                                     </button>
                                 </div> */}
-                {visitedRoutes.map((item) => (
+                {activeTabs.map((item) => (
                   <div
                     onClick={() => HandleNavigation(item.href)}
                     key={item.href}
