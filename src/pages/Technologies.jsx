@@ -19,22 +19,22 @@ function Technologies() {
       img: "./technologies/javascript.png",
     },
     {
-      id: 7,
+      id: 4,
       name: "typescript",
       img: "./technologies/typescript.png",
     },
     {
-      id: 4,
+      id: 5,
       name: "python",
       img: "./technologies/python.png",
     },
     {
-      id: 5,
+      id: 6,
       name: "c sharp",
       img: "./technologies/c-sharp.png",
     },
     {
-      id: 6,
+      id: 7,
       name: "PHP",
       img: "./technologies/php.png",
     },
@@ -43,16 +43,15 @@ function Technologies() {
       name: "java",
       img: "./technologies/java.png",
     },
-
   ];
   const frameworks = [
     {
-      id: 2,
+      id: 1,
       name: "React",
       img: "./technologies/react.png"
     },
     {
-      id: 1,
+      id: 2,
       name: "Angular",
       img: "./technologies/angular.png"
     },
@@ -62,27 +61,27 @@ function Technologies() {
       img: "./technologies/ionic.png"
     },
     {
-      id: 7,
+      id: 4,
       name: "Capacitor",
       img: "./technologies/capacitor.png"
     },
     {
-      id: 4,
+      id: 5,
       name: "Next JS",
       img: "./technologies/nextjs.png"
     },
     {
-      id: 5,
+      id: 6,
       name: "Node",
       img: "./technologies/nodejs.png"
     },
     {
-      id: 6,
+      id: 7,
       name: "Express JS",
       img: "https://user-images.githubusercontent.com/46530103/149555472-2e2ed369-9011-496e-9fe5-69facdf534e8.png"
     },
     {
-      id: 6,
+      id: 8,
       name: "Jquery",
       img: "./technologies/jquery.png"
     },
@@ -95,44 +94,44 @@ function Technologies() {
       img: "./technologies/mui.png"
     },
     {
-      id: 5,
+      id: 2,
       name: "SASS",
       img: "./technologies/sass.png"
     },
     {
-      id: 7,
+      id: 3,
       name: "Tailwind css",
       img: "./technologies/tailwindcss.png"
     },
     {
-      id: 7,
+      id: 4,
       name: "Bootstrap",
       img: "./technologies/bootstrap.png"
     },
   ]
   const devops = [
     {
-      id: 2,
+      id: 1,
       name: "AWS",
       img: "./technologies/aws.png"
     },
     {
-      id: 3,
+      id: 2,
       name: "Git",
       img: "./technologies/git.png"
     },
     {
-      id: 4,
+      id: 3,
       name: "Github",
       img: "./technologies/github.png"
     },
     {
-      id: 5,
+      id: 4,
       name: "Docker",
       img: "./technologies/docker.png"
     },
     {
-      id: 1,
+      id: 5,
       name: "MySQL",
       img: "./technologies/mysql.png",
       img: "https://www.mysql.com/common/logos/logo-mysql-170x115.png"
@@ -148,12 +147,12 @@ function Technologies() {
       img: "./technologies/supabase.png",
     },
     {
-      id: 7,
+      id: 8,
       name: "netlify",
       img: "./technologies/netlify.png",
     },
     {
-      id: 7,
+      id: 9,
       name: "firebase",
       img: "./technologies/firebase.png",
     },
