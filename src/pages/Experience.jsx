@@ -27,10 +27,16 @@ function Experience() {
           <time className="block mb-2 text-sm font-normal leading-none capitalize text-secondary-400">software developer</time>
           <div className="mt-4 text-sm font-normal text-secondary-300">
             <ul className="list-disc list-inside [&_li]:mb-2">
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consectetur.</li>
+              <li>Developed a responsive ticket booking application for ferry services.</li>
+              <li>Created a smart citizen application for Aurangabad city, integrating Google APIs for broadcasting news and providing live weather forecasts.</li>
+              <li>Designed and implemented a responsive UI for chat applications using Angular and Bootstrap, ensuring a seamless user interface.</li>
+              <li>Successfully migrated an Angular 8 application to Angular 10 LTS, improving performance and maintaining long-term support.</li>
+              <li>Gained hands-on experience with Google APIs, including YouTube Data API V3, Google Maps, and Analytics tools, enhancing application functionality.</li>
+              <li>Integrated a secure authentication system using JWT, ensuring robust user security and data protection.</li>
+
+              {/* <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, consectetur.</li>
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut impedit deserunt labore sint quasi quae ipsa amet distinctio fugiat eum.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quos a fugiat.</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quos a fugiat.</li> */}
             </ul>
           </div>
         </li>

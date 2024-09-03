@@ -1,4 +1,5 @@
 [inspiration](https://www.rajsavaliya.com/)
+[ICONS](https://www.flaticon.com/)
 
 ## Terminal
 1. switch theme

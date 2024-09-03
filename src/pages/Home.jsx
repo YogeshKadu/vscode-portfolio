@@ -34,7 +34,7 @@ function Home() {
   return (
     <div className="min-h-full">
       <div className="w-full #max-w-5xl p-8 sm:p-20 xl:p-28">
-        <h1 className="mb-1 text-3xl font-semibold text-secondary-300">Yogesh Vasant Kadu</h1>
+        <h1 className="mb-1 text-3xl font-semibold text-secondary-200">Yogesh Vasant Kadu</h1>
         <p className="mb-3 text-sm capitalize text-secondary-400">
           senior software developer
         </p>
