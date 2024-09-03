@@ -273,7 +273,7 @@ function Technologies() {
 
 
       <div className="flex flex-wrap gap-5 my-8">
-        {icons.map((item) => (
+        {false && icons.map((item) => (
           <div className="flex items-center gap-1 #p-2 rounded-md flex-0 bg-secondary-500/50 pe-8">
             <div className="grid w-12 h-12 rounded-lg place-content-center">
               <img src={item} alt="" className="object-contain w-8 h-8" />
@@ -285,7 +285,7 @@ function Technologies() {
         ))}
       </div>
       <div className="flex flex-wrap gap-5 my-5">
-        {icons.map((item) => (
+        {false && icons.map((item) => (
           <div className="flex items-center gap-1 #p-2 rounded-md flex-0 bg-secondary-500/50 pe-8">
             <div className="grid w-12 h-12 rounded-lg place-content-center">
               <img src={item} alt="" className="object-contain w-8 h-8" />
