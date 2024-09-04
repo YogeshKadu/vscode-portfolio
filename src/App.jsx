@@ -11,6 +11,7 @@ import Technologies from "./pages/Technologies";
 import NotFound from "./pages/NotFound";
 import Experience from "./pages/Experience";
 import Settings from "./pages/Settings";
+import Projects from "./pages/Projects";
 
 const Normal = () => {
   return <div className="relative w-full min-h-svh bg-base-100 font-Quicksand" data-theme="light">
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="profile" element={<MarkdownEditor />} />
           <Route path="codepen" element={<Codepen />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="projects" element={<Projects />} />
           {/* <Route path="experiance" element={<Experiance />} /> */}
           <Route path="experience" element={<Experience />} />
           <Route path="technologies" element={<Technologies />} />

@@ -15,6 +15,11 @@
     "href": "/contact"
   },
   {
+    "name": "projects.jsx",
+    "type": "js",
+    "href": "/projects"
+  },
+  {
     "name": "technologies.jsx",
     "type": "js",
     "href": "/technologies"

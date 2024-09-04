@@ -36,14 +36,19 @@
                     "href": "/experience"
                 },
                 {
-                    "name": "contact.jsx",
+                    "name": "projects.jsx",
                     "type": "js",
-                    "href": "/contact"
+                    "href": "/projects"
                 },
                 {
                     "name": "technologies.jsx",
                     "type": "js",
                     "href": "/technologies"
+                },
+                {
+                    "name": "contact.jsx",
+                    "type": "js",
+                    "href": "/contact"
                 },
                 {
                     "name": "profile.jsx",
