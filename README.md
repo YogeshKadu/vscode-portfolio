@@ -8,6 +8,28 @@
 
 
 
+
+## Navigations:
+1. Home "/"
+2. Instruction "/instruction"
+3. profile "/profile"
+4. experience "/experience"
+5. technologies "/technologies"
+6. settings "/settings"
+7. codepen "/codepen"
+8. contact "/contact"
+9. projects "/projects"
+10. projects/[] "projects/[projectSlug]"
+11. 
+
+
+
+
+
+
+
+
+
 ## Yogesh Vasant kadu
 
 [kaduyogesh99@gmail.com](mailto:kaduyogesh99@gmail.com) | +91 9881309690 |

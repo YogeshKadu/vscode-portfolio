@@ -12,9 +12,7 @@ function Layout() {
   const navigate = useNavigate();
   const { hash, pathname, search } = location;
   const { activeTabs, RemoveRoute } = useHistoryContext();
-  const HandleNavigate = (path) => {
-    navigate(path);
-  };
+
   const HandleClick = (e, href) => {
     e.stopPropagation();
     RemoveRoute(href);

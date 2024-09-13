@@ -1,34 +1,85 @@
 [
   {
     "img": "https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/a3ff2982-83f5-4914-a4b3-5c8b3ea9ee6a.webp",
+    "slug": "toaster-in-game-notification",
     "title": "Toaster in-game notification",
     "shortdesc": "A lightweight tool for seamless in-game notifications in Unity projects, offering customizable design, smooth animations, and easy integration with minimal resources.",
     "description": "The Toaster - InGame Notification Package for Unity is a versatile and lightweight tool designed to easily integrate pop-up notifications into Unity projects. This package enhances the user experience by providing customizable, time-controlled, and easing-based notifications without burdening your project with unnecessary resources. It leverages the TMP text component for crisp text display and offers a streamlined implementation process.",
-    "feature":"<ul><li><strong>Simplified Integration:</strong> Easy to integrate with just a few lines of code.</li><li><strong>Enhanced User Experience:</strong> Provides smooth, in-game notifications that enhance player engagement.</li><li><strong>Customizable Design:</strong> Fully customizable to match the design needs of your project, including optional parameters for titles, duration, and positioning.</li><li><strong>Time and Easing Control:</strong> Control the duration and easing animations for notifications to match the flow of your game.</li><li><strong>Lightweight and Compact:</strong> Minimal footprint, ensuring your project remains fast and responsive.</li><li><strong>TMP Text Component Support:</strong> Utilizes TMP Essential Resources for high-quality text rendering.</li><li><strong>Upcoming Features:</strong><ul><li><strong>Event Emitters for Toast Lifecycle:</strong> Gain control over notification events with onStart, onDismiss, and onEnd callbacks.</li><li><strong>Custom Color System for Toasts:</strong> Implement color-coded notifications for success, danger, and warning scenarios.</li></ul></li></ul>",
-    "technologies":["react","tailwind","reactflow","django","postgrace"]
+    "feature": "<ul><li><strong>Simplified Integration:</strong> Easy to integrate with just a few lines of code.</li><li><strong>Enhanced User Experience:</strong> Provides smooth, in-game notifications that enhance player engagement.</li><li><strong>Customizable Design:</strong> Fully customizable to match the design needs of your project, including optional parameters for titles, duration, and positioning.</li><li><strong>Time and Easing Control:</strong> Control the duration and easing animations for notifications to match the flow of your game.</li><li><strong>Lightweight and Compact:</strong> Minimal footprint, ensuring your project remains fast and responsive.</li><li><strong>TMP Text Component Support:</strong> Utilizes TMP Essential Resources for high-quality text rendering.</li><li><strong>Upcoming Features:</strong><ul><li><strong>Event Emitters for Toast Lifecycle:</strong> Gain control over notification events with onStart, onDismiss, and onEnd callbacks.</li><li><strong>Custom Color System for Toasts:</strong> Implement color-coded notifications for success, danger, and warning scenarios.</li></ul></li></ul>",
+    "technologies": [
+      "react",
+      "tailwind",
+      "reactflow",
+      "django",
+      "postgrace"
+    ],
+    "images": [
+      "https://ik.imagekit.io/09f197rw3w/portfolio/toaster/fc435fd1-6d38-40c2-b5c2-bddccf8f94c3.webp",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/toaster/a3ff2982-83f5-4914-a4b3-5c8b3ea9ee6a.webp",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/toaster/toaster_2.webp",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/toaster/a3ff2982-83f5-4914-a4b3-5c8b3ea9ee6a.webp",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/toaster/94da53a8-b5da-4abe-bbd8-25be0545c08e.webp"
+    ]
   },
   {
-    "img": "https://cdn.dribbble.com/users/2905985/screenshots/14034852/media/884cfd47056c3ae4797310722e4f44e0.png",
+    "img": "https://ik.imagekit.io/09f197rw3w/portfolio/flowchart/flowchart_ui2.png",
+    "slug": "flowchartai",
     "title": "FlowchartAI",
     "shortdesc": "FlowchartAI is an advanced AI-driven flowchart builder that generates interactive flowcharts based on user instructions. It simplifies the process of creating and managing flowcharts, offering the flexibility to export the results in popular formats like PNG and SVG. Users can also save their flowcharts to their accounts for easy access and management. The tool currently supports two types of diagrams: Activity Diagrams and Schema Diagrams, with options to manually create, update, or delete flowcharts.",
     "description": "FlowchartAI is an advanced AI-driven flowchart builder that generates interactive flowcharts based on user instructions. It simplifies the process of creating and managing flowcharts, offering the flexibility to export the results in popular formats like PNG and SVG. Users can also save their flowcharts to their accounts for easy access and management. The tool currently supports two types of diagrams: Activity Diagrams and Schema Diagrams, with options to manually create, update, or delete flowcharts.",
-    "feature":"<ul><li><strong>AI-Driven Flowchart Generation:</strong> Create flowcharts based on natural language instructions.</li><li><strong>Interactive Flowcharts:</strong> Engage with dynamically generated flowcharts for better visualization.</li><li><strong>Export Options:</strong> Save flowcharts as PNG or SVG files for easy sharing and integration.</li><li><strong>Account Management:</strong> Save, update, and delete flowcharts within your account for seamless workflow management.</li><li><strong>Manual Editing:</strong> Option to manually create and modify flowcharts as needed.</li><li><strong>Diagram Types Supported:</strong> Currently supports Activity Diagrams and Schema Diagrams for specialized use cases.</li></ul>",
-    "technologies":["react","tailwind","reactflow","django","postgrace"]
+    "feature": "<ul><li><strong>AI-Driven Flowchart Generation:</strong> Create flowcharts based on natural language instructions.</li><li><strong>Interactive Flowcharts:</strong> Engage with dynamically generated flowcharts for better visualization.</li><li><strong>Export Options:</strong> Save flowcharts as PNG or SVG files for easy sharing and integration.</li><li><strong>Account Management:</strong> Save, update, and delete flowcharts within your account for seamless workflow management.</li><li><strong>Manual Editing:</strong> Option to manually create and modify flowcharts as needed.</li><li><strong>Diagram Types Supported:</strong> Currently supports Activity Diagrams and Schema Diagrams for specialized use cases.</li></ul>",
+    "technologies": [
+      "react",
+      "tailwind",
+      "reactflow",
+      "django",
+      "postgrace"
+    ],
+    "images": [
+      "https://ik.imagekit.io/09f197rw3w/portfolio/flowchart/flowchart_landing.png",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/flowchart/flowchart_dashboard.png",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/flowchart/flowchart_ui2.png",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/flowchart/flowchart_ui.png"
+    ]
   },
   {
     "img": "https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/a3ff2982-83f5-4914-a4b3-5c8b3ea9ee6a.webp",
+    "slug": "adobe-json-to-html",
     "title": "Adobe JSON to HTML",
     "shortdesc": "This API provides a simple and efficient way to convert PDF documents into dynamic HTML files. By utilizing Adobe's PDF to JSON conversion, it allows users to transform static PDFs into customizable HTML content, streamlining document processing workflows.",
     "description": "IT's a notification package for unity game engine, built in C#, designed to enhance user engagement through customizable and animated notifications. This package supports various animation types and extensive customization options to fit different application needs.",
-    "feature":"<ul><li><strong>PDF to HTML Conversion:</strong> Effortlessly convert PDF documents into dynamic HTML files.</li><li><strong>Adobe PDF to JSON Integration:</strong> Leverage Adobe's technology for accurate and versatile conversions.</li><li><strong>Customizable Output:</strong> Generate HTML content tailored to your specific needs.</li><li><strong>Streamlined Workflow:</strong> Simplifies document processing and enhances efficiency.</li></ul>",
-    "technologies":["react","tailwind","reactflow","django","postgrace"]
+    "feature": "<ul><li><strong>PDF to HTML Conversion:</strong> Effortlessly convert PDF documents into dynamic HTML files.</li><li><strong>Adobe PDF to JSON Integration:</strong> Leverage Adobe's technology for accurate and versatile conversions.</li><li><strong>Customizable Output:</strong> Generate HTML content tailored to your specific needs.</li><li><strong>Streamlined Workflow:</strong> Simplifies document processing and enhances efficiency.</li></ul>",
+    "technologies": [
+      "react",
+      "tailwind",
+      "reactflow",
+      "django",
+      "postgrace"
+    ],
+    "images": [
+      "https://ik.imagekit.io/09f197rw3w/portfolio/json%20to%20html/json%20html%20ui1.png"
+    ]
   },
   {
-    "img": "https://assetstorev1-prd-cdn.unity3d.com/package-screenshot/a3ff2982-83f5-4914-a4b3-5c8b3ea9ee6a.webp",
+    "img": "https://ik.imagekit.io/09f197rw3w/portfolio/onclick/onclick_ui.png",
+    "slug": "onclick-image-extractor",
     "title": "OnClick Image Extractor",
     "shortdesc": "OnClick is a user-friendly platform designed to extract, preprocess, and download images from public websites. Users can input a website URL, and the platform will retrieve all available images, which can then be viewed and downloaded individually or in bulk. The platform is ideal for web developers, artists, AI researchers, and startups that rely on image data. Future plans include integrating machine learning functionalities for image preprocessing and labeling.",
     "description": "OnClick is a user-friendly platform designed to extract, preprocess, and download images from public websites. Users can input a website URL, and the platform will retrieve all available images, which can then be viewed and downloaded individually or in bulk. The platform is ideal for web developers, artists, AI researchers, and startups that rely on image data. Future plans include integrating machine learning functionalities for image preprocessing and labeling.",
-    "feature":"<ul><li><strong>Image Extraction:</strong> Extract images from public websites by pasting the URL.</li><li><strong>Image Viewing:</strong> View images in an organized, category-wise grid with options to inspect details like name, resolution, and file type.</li><li><strong>Custom Background:</strong> Inspect images against light or dark backgrounds.</li><li><strong>Image Download:</strong> Download individual images or bulk download in ZIP format.</li><li><strong>Machine Learning Integration (Future):</strong> Preprocess, label, and download image sets for ML models like YOLO, FRCNN, and ResNET.</li><li><strong>API for Developers:</strong> Retrieve image data via a POST API, including image tags for web development.</li><li><strong>Web Scraping Support:</strong> Subscription services for scraping data from paginated or infinite scrolling websites.</li><li><strong>Feedback & Support:</strong> Dedicated feedback form and email support for resolving issues.</li></ul>",
-    "technologies":["react","tailwind","reactflow","django","postgrace"]
+    "feature": "<ul><li><strong>Image Extraction:</strong> Extract images from public websites by pasting the URL.</li><li><strong>Image Viewing:</strong> View images in an organized, category-wise grid with options to inspect details like name, resolution, and file type.</li><li><strong>Custom Background:</strong> Inspect images against light or dark backgrounds.</li><li><strong>Image Download:</strong> Download individual images or bulk download in ZIP format.</li><li><strong>Machine Learning Integration (Future):</strong> Preprocess, label, and download image sets for ML models like YOLO, FRCNN, and ResNET.</li><li><strong>API for Developers:</strong> Retrieve image data via a POST API, including image tags for web development.</li><li><strong>Web Scraping Support:</strong> Subscription services for scraping data from paginated or infinite scrolling websites.</li><li><strong>Feedback & Support:</strong> Dedicated feedback form and email support for resolving issues.</li></ul>",
+    "technologies": [
+      "react",
+      "tailwind",
+      "reactflow",
+      "django",
+      "postgrace"
+    ],
+    "images": [
+      "https://ik.imagekit.io/09f197rw3w/portfolio/onclick/onclick_ui.png",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/onclick/onclick_ui.png",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/onclick/onclick._docs.png",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/onclick/onclick_ui2.png",
+      "https://ik.imagekit.io/09f197rw3w/portfolio/onclick/onclick._docs2.png"
+    ]
   }
 ]
