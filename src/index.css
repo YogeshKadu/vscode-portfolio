@@ -14,4 +14,7 @@
 	.grid-center {
 		@apply grid place-content-center;
 	}
+	.kbd{
+		@apply px-1.5 pb-0.5 border rounded border-secondary-700 bg-secondary-800/50 text-secondary-300;
+	}
 }

@@ -15,7 +15,7 @@ import Projects from "./pages/Projects";
 import ProjectDescription from "./pages/ProjectDescription";
 
 const Normal = () => {
-  return <div className="relative w-full min-h-svh bg-base-100 font-Quicksand" data-theme="light">
+  return <div className="relative w-full min-h-svh font-Quicksand" data-theme="light">
     <canvas className="absolute z-0 w-full h-full"></canvas>
     <div className="z-10">
       <Herosection />

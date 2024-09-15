@@ -2,10 +2,8 @@ import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-  // const regex = "/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;"
-  // const regex = "[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$";
   const { VITE_EMAILJS_SERVICE,VITE_EMAILJS_PublicKey,VITE_EMAILJS_TEMPLATE } = import.meta.env;
-  console.log(VITE_EMAILJS_SERVICE,VITE_EMAILJS_PublicKey,VITE_EMAILJS_TEMPLATE);
+  // console.log(VITE_EMAILJS_SERVICE,VITE_EMAILJS_PublicKey,VITE_EMAILJS_TEMPLATE);
   
   const formRef = useRef();
   const [form, setForm] = useState({
