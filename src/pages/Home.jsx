@@ -86,7 +86,7 @@ function Home() {
             </div>
             <div>
               <h4 className="mt-5 mb-2 text-secondary-300">Vibe with me 🎧</h4>
-              <iframe
+              {/* <iframe
                 style={{ borderRadius: 12 }}
                 src="https://open.spotify.com/embed/album/4UX3mreKGz0f1PrGb4Q9CJ?utm_source=generator&theme=0"
                 width="100%"
@@ -95,7 +95,7 @@ function Home() {
                 allowFullScreen=""
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
-              />
+              /> */}
             </div>
           </div>
         </div>
