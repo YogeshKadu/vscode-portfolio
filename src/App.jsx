@@ -13,6 +13,7 @@ import Experience from "./pages/Experience";
 import Settings from "./pages/Settings";
 import Projects from "./pages/Projects";
 import ProjectDescription from "./pages/ProjectDescription";
+import Welcome from "./pages/Welcome";
 
 const Normal = () => {
   return <div className="relative w-full min-h-svh font-Quicksand" data-theme="light">
@@ -30,7 +31,8 @@ export default function App() {
       {/* <Layout /> */}
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Welcome />} />
+          {/* <Route index element={<Home />} /> */}
           <Route path="instruction" element={<Instruction />} />
           <Route path="profile" element={<MarkdownEditor />} />
           <Route path="codepen" element={<Codepen />} />

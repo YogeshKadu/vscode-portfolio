@@ -35,16 +35,6 @@ Web Development / Native Application Development
 * Build smart citizen application for Aurangabad city which include google API, broadcast news, live weather forecasting.
 * Build responsive UI for chat applications using Angular, Bootstrap.
 * Migrated angular 8 application to angular 10 LTS.
-
-**Web Developer at Ekatta Innovators LLP**
-
-06/2020 - 06/2021, Chh. Sambhaji nagar
-Web Development / Native Application Development
-
-* Build Ticket Booking application for ferry service. [Native Application with payment Gateway integration]
-* Build smart citizen application for Aurangabad city which include google API, broadcast news, live weather forecasting.
-* Build responsive UI for chat applications using Angular, Bootstrap.
-* Migrated angular 8 application to angular 10 LTS.
 `);
 
     function handleEditorChange({ html, text }) {

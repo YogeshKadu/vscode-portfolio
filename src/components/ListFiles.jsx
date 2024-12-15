@@ -18,7 +18,6 @@ function ListFiles() {
             navigate(result[0].href);
             setActivePopover(false);
         }
-        // console.log(result.length);
     }
 
 

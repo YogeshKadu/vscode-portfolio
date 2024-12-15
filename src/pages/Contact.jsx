@@ -1,16 +1,21 @@
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
+import toast from "react-hot-toast";
 
 function Contact() {
   const { VITE_EMAILJS_SERVICE,VITE_EMAILJS_PublicKey,VITE_EMAILJS_TEMPLATE } = import.meta.env;
-  // console.log(VITE_EMAILJS_SERVICE,VITE_EMAILJS_PublicKey,VITE_EMAILJS_TEMPLATE);
   
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: ""
-  })
+  });
+
+
+  useEffect(()=>{
+    toast.success("Message sent !");
+  },[])
 
   const HandleChange = (e) => {
     setForm(preValue => ({ ...preValue, [e.target.name]: e.target.value }));

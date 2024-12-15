@@ -7,6 +7,7 @@ import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useHistoryContext } from "./context/HistoryContextProvider";
 import { useThemeProvider } from "./context/ThemeContextProvider";
 import ListFiles from "./components/ListFiles";
+import { Toaster } from "react-hot-toast";
 
 function Layout() {
   const location = useLocation();
@@ -93,6 +94,7 @@ function Layout() {
         <Footer />
       </div>
       <ListFiles />
+      <Toaster position="bottom-right" />
     </div>
   );
 }
