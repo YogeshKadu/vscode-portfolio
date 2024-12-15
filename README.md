@@ -81,7 +81,8 @@ VITE_EMAILJS_PublicKey
 ## Demo
 * [Youtube link](https://www.youtube.com/watch?v=1SN0oA5YAnk&t=0s)
 * [YogeshKadu - Portfolio](https://yogeshkadu.netlify.app/)
-* ![image](https://github.com/user-attachments/assets/b2616b4f-f476-404a-94be-84ba9521e060)
+
+![image](https://github.com/user-attachments/assets/b2616b4f-f476-404a-94be-84ba9521e060)
 
 
 ## License

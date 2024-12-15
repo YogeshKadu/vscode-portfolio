@@ -3,19 +3,14 @@ import emailjs from '@emailjs/browser';
 import toast from "react-hot-toast";
 
 function Contact() {
-  const { VITE_EMAILJS_SERVICE,VITE_EMAILJS_PublicKey,VITE_EMAILJS_TEMPLATE } = import.meta.env;
-  
+  const { VITE_EMAILJS_SERVICE, VITE_EMAILJS_PublicKey, VITE_EMAILJS_TEMPLATE } = import.meta.env;
+
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: ""
   });
-
-
-  useEffect(()=>{
-    toast.success("Message sent !");
-  },[])
 
   const HandleChange = (e) => {
     setForm(preValue => ({ ...preValue, [e.target.name]: e.target.value }));
@@ -29,10 +24,10 @@ function Contact() {
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log('Message Sent Successfully!');
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log('Failed with error - ', error.text);
         },
       );
   }
