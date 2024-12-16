@@ -85,7 +85,7 @@ VITE_EMAILJS_PublicKey
 ![image](https://github.com/user-attachments/assets/b2616b4f-f476-404a-94be-84ba9521e060)
 
 
-## License
+## License❗
 This project is licensed under a custom license. Redistribution, modification, or usage is prohibited unless explicitly permitted.
 
 ## Credits
