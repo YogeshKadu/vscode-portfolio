@@ -4,22 +4,36 @@ A portfolio inspired by the popular VS Code editor, designed to showcase my proj
 
 ## Table of Contents
 Quick navigation links to all major sections in the README.
+1. [Features](#features)
+2. [Tech Stack](#tech-stack)
+3. [Project Setup](#project-setup)
+4. [Environment Variables](#environment-variables)
+5. [Project Structure](#project-structure)
+6. [Demo](#demo)
+7. [License](#license)
+8. [Credits](#credits)
+9. [Contact](#contact)
+10. [To-Do's](#todos)
 
-## Features
+
+<a name="features"></a>
+## ✨ Features
 - **VS Code Themed Design**: Inspired by the look and feel of Visual Studio Code.
 - **Multiple Themes**: Switch between dark, light, and VS Code-inspired themes.
 - **Fully Responsive**: Optimized for desktop, tablet, and mobile devices.
 - **Keyboard Shortcuts**: Quick navigation between pages using keyboard shortcuts.
 
-## Tech Stack
+<a name="tech-stack"></a>
+## 🛠️ Tech Stack
 1. **Frontend**:
     - React JS, HTML
 2. **Styling**:
     - Tailwind CSS, CSS
 3. **Icons**:
     - Iconify icons
-
-## Project Setup
+  
+<a name="project-setup"></a>
+## ⚙ Project Setup
 1. **Clone the repository**:
 
     ```bash
@@ -49,14 +63,15 @@ Quick navigation links to all major sections in the README.
     npm run build
     ```
 
+<a name="environment-variables"></a>
 ## Environment Variables
 ```plaintext
 VITE_EMAILJS_SERVICE
 VITE_EMAILJS_TEMPLATE
 VITE_EMAILJS_PublicKey
 ```
-
-## Project Structure
+<a name="project-structure"></a>
+## 📦 Project Structure
 - **`📁 public/`**: Contains static files such as images, icons, and fonts.
   - **`📁 icons/`**: Stores the explorer icons.
   - **`📁 images/`**: Holds additional images used in the project.
@@ -77,28 +92,31 @@ VITE_EMAILJS_PublicKey
 - **`package.json`**: Contains project dependencies and scripts.
 - **`README.md`**: Project documentation.
 
-
-## Demo
+<a name="demo"></a>
+## 🚀 Demo
 * [Youtube link](https://www.youtube.com/watch?v=1SN0oA5YAnk&t=0s)
 * [YogeshKadu - Portfolio](https://yogeshkadu.netlify.app/)
 
 ![image](https://github.com/user-attachments/assets/b2616b4f-f476-404a-94be-84ba9521e060)
 
-
-## License❗
+<a name="license"></a>
+## ❗ License ❗
 This project is licensed under a custom license. Redistribution, modification, or usage is prohibited unless explicitly permitted.
 
+<a name="credits"></a>
 ## Credits
 * Raj Savaliya Portfolio: [Portfolio link](https://www.rajsavaliya.com)
 * Icons: [Flaticons](https://www.flaticon.com/)
 
-# Contact
+<a name="contact"></a>
+# 📞 Contact
 You can reach out to me via the following:
 
 * Phone: +91 9881309690
 * Email: kaduyogesh99@gmail.com
 
-## To-Do's:
+<a name="todos"></a>
+## ✏ To-Do's:
 - [ ] - Easter Egg Tracker: Implement an automatic checklist to display the Easter eggs the user has found or interacted with.
 - [ ] - Project Links: Add relevant project links to the documentation or application.
 - [ ] - Popup for Media/Images: Code a popup feature for viewing media/images.
